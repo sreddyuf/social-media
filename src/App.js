@@ -1,24 +1,49 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ChatWindow from './components/ChatWindow';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2><u>Component List</u></h2>
+      <ul>
+        <li>
+          Chat Window: <ChatWindow someProp="Test"/>
+          Notes: need to see who is in the chat
+                 IM window between 2 people vs group window
+        </li>
+        <li>
+          Associates List: 
+          Notes: need to be able to invite to chat, start new chat, see profile, send offline message
+                 need API to update automatically (started work, working in 1 hr, etc)
+        </li>
+        <li>
+          File Transfer:
+          Notes: offline and online
+        </li>
+        <li>
+          Profile:
+          Notes: should support external links
+                 homepage-like? (myspace)
+        </li>
+        <li>
+          Group Homepage:
+          Notes: to share schedule notes or whatever for a department etc
+        </li>
+        <li>
+          Group Notifications:
+          Notes: system maint, offline messages, tasks complete, whatever (need API)
+        </li>
+        <li>
+          Offline Channels:
+          Notes: (like teams/slack/etc?)
+        </li>
+        <li>
+          Admin page:
+          Notes: may need API for plugging into other apps
+                 setup groups, permissions, etc
+        </li>
+      </ul>
     </div>
   );
 }
