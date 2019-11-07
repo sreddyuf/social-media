@@ -5,9 +5,11 @@ import ChatWindow from './components/ChatWindow';
 function App() {
   return (
     <div className="App">
-      <h2><u>Component List</u></h2>
+      <h2> sathya
+        <u>Component List</u>
+      </h2>
       <ul>
-        <li>
+        <li> ann
           Chat Window: <ChatWindow someProp="Test"/>
           Notes: need to see who is in the chat
                  IM window between 2 people vs group window
@@ -17,16 +19,16 @@ function App() {
           Notes: need to be able to invite to chat, start new chat, see profile, send offline message
                  need API to update automatically (started work, working in 1 hr, etc)
         </li>
-        <li>
+        <li> dhanesh
           File Transfer:
           Notes: offline and online
         </li>
-        <li>
+        <li> srija
           Profile:
           Notes: should support external links
                  homepage-like? (myspace)
         </li>
-        <li>
+        <li> rohitha
           Group Homepage:
           Notes: to share schedule notes or whatever for a department etc
         </li>
@@ -34,7 +36,7 @@ function App() {
           Group Notifications:
           Notes: system maint, offline messages, tasks complete, whatever (need API)
         </li>
-        <li>
+        <li> chris
           Offline Channels:
           Notes: (like teams/slack/etc?)
         </li>
