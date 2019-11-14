@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import ChatWindow from './components/ChatWindow';
 import AssociatesList from './components/AssociatesList';
+import Profile from "./components/Profile";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           Profile:
           Notes: should support external links
                  homepage-like? (myspace)
+          <Profile/>
         </li>
         <li> rohitha
           Group Homepage:
