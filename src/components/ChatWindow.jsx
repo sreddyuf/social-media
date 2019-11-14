@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default class extends React.Component {
-    state = {
-
-    }
+class MyComponent extends React.Component{
     render() {
         return (
-            <div>TODO</div>
+           <div>
+               Ann has to do this component!!
+           </div>
         );
     }
 }
+export default MyComponent

@@ -10,7 +10,7 @@ function App() {
         <u>Component List</u>
       </h2>
       <ul>
-        <li> ann
+        <li>
           Chat Window: <ChatWindow someProp="Test"/>
           Notes: need to see who is in the chat
                  IM window between 2 people vs group window
