@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import ChatWindow from './components/ChatWindow';
+import AssociatesList from './components/AssociatesList';
 
 function App() {
   return (
@@ -9,17 +10,17 @@ function App() {
         <u>Component List</u>
       </h2>
       <ul>
-        <li> ann
+        <li>
           Chat Window: <ChatWindow someProp="Test"/>
           Notes: need to see who is in the chat
                  IM window between 2 people vs group window
         </li>
         <li> dhanesh
-          Associates List: 
+          Associates List: <AssociatesList someProp="Associates"/>
           Notes: need to be able to invite to chat, start new chat, see profile, send offline message
                  need API to update automatically (started work, working in 1 hr, etc)
         </li>
-        <li> 
+        <li>
           File Transfer:
           Notes: offline and online
         </li>
