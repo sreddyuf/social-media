@@ -14,12 +14,12 @@ function App() {
           Notes: need to see who is in the chat
                  IM window between 2 people vs group window
         </li>
-        <li>
+        <li> dhanesh
           Associates List: 
           Notes: need to be able to invite to chat, start new chat, see profile, send offline message
                  need API to update automatically (started work, working in 1 hr, etc)
         </li>
-        <li> dhanesh
+        <li> 
           File Transfer:
           Notes: offline and online
         </li>
